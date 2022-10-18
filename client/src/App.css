@@ -32,4 +32,6 @@ button {
 
 @import url("./components/Header/Header.css");
 
-@import url("./components/mainpages/products/products.css")
+@import url("./components/mainpages/products/products.css");
+
+@import url("./components/mainpages/auth/login.css");

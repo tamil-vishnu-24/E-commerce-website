@@ -24,6 +24,7 @@ export default function  UserLogin() {
   }
   return (
     <div className = "login-page">
+    <h2>Login</h2>
       <form onSubmit ={loginSubmit}>
         <input type = "email" name="email"  required value ={user.email} onChange={onChangeInput}/>
         <input type ="password" name="password" required value ={user.password} onChange={onChangeInput}/>
