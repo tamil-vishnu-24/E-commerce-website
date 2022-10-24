@@ -5,7 +5,7 @@
     overflow :hidden ;
     height: 400px;
     padding:15px;
-    box-shadow : 0 0 15px rgb(81, 18, 157) ;
+    box-shadow : 0 0 15px rgb(102, 24, 197) ;
     margin :10px 0 ;
     position : relative ;
 }
@@ -13,4 +13,9 @@
     width: 200px;
     height:200px;
     object-fit: fill;
+}
+.product_card input{
+    position: absolute;
+    width:25px;
+    height:25px;
 }

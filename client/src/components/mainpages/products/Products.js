@@ -6,12 +6,15 @@ export default function Products() {
   const state = useContext(GlobalState);
   const [products] = state.productsAPI.products;
   console.log(products);
+  const [isAdmin] = state.userAPI.isAdmin;
   return (
     <>
     <div className ="products">
      {
          products.map(product => {
-              return <ProductItem key ={product._id} products ={product} />
+              return <ProductItem key ={product._id} products ={product} 
+                isAdmin = {isAdmin}
+              />
          })
      }
     </div>
