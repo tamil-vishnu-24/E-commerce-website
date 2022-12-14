@@ -1,0 +1,50 @@
+.createproduct{
+    width: 100% ;
+    display: flex;
+    align-items: center;
+}
+
+.upload{
+    max-width : 400px;
+    height:400px;
+    width:100%;
+    border : 2px solid darkorange;
+}
+#file_ip{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#file_ip::before{
+    content: "+";
+    position:absolute;
+    width: 100%;
+    height:100%;
+    
+    background: white;
+    color: blue;
+    font-size: 15rem;
+    cursor:pointer;
+}
+
+#file_img{
+    width:100%;
+    height:100%;
+
+}
+#file_img img{
+    width:100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    bottom : 100%;
+
+}
+#span{
+    color: black;
+    position: relative;
+    bottom : 810px;
+    left:325px;
+    font-size: 50px;;
+    cursor: pointer;
+}
